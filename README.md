@@ -33,14 +33,27 @@ https://www.yiiframework.com/extension/yiisoft/yii2-app-advanced/doc/guide/2.0/e
 2. https://www.youtube.com/playlist?list=PLRd0zhQj3CBmusDbBzFgg3H20VxLx2mkF
 
 - https://www.youtube.com/playlist?list=PLRFcevDKdig7Ja-Q7fmRGaX89MYa77jQ6
+- https://www.youtube.com/playlist?list=PLsjkcWMUNIT6GWvLYWmcLaS1tNWAzNTwT
 - https://www.yiiframework.com/doc/api/2.0
 	- https://www.yiiframework.com/doc/api/2.0/yii-grid-gridview
 - https://yii2-framework.readthedocs.io/en/stable/
 	- https://yii2-framework.readthedocs.io/en/stable/guide/db-query-builder/
 
 - https://github.com/yiisoft/yii2-jui
+- https://github.com/2amigos/yii2-ckeditor-widget
+
+- https://www.yiiframework.com/doc/guide/2.0/en/security-authorization#configuring-rbac
+- https://www.yiiframework.com/doc/api/2.0/yii-rbac-dbmanager
 
 ## Access
 
 {domain}/frontend/web/
 {domain}/backend/web/
+
+---
+
+## To Do
+
+- RBAC
+- Modules
+- Email creds (Google)

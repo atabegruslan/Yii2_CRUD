@@ -6,6 +6,7 @@ use app\models\Country;
 use app\models\User;
 use yii\helpers\ArrayHelper;
 use yii\jui\DatePicker;
+use dosamigos\ckeditor\CKEditor;
 
 /* @var $this yii\web\View */
 /* @var $model app\models\Review */
@@ -25,7 +26,19 @@ use yii\jui\DatePicker;
 
     <?= $form->field($model, 'user_id')->dropDownList(ArrayHelper::map(User::find()->all(), 'id', 'username')) ?>
 
-    <?= $form->field($model, 'review')->textarea() ?>
+    <?= 
+        $form
+        ->field($model, 'review')
+        //->textarea(['rows' => 6]) 
+        ->widget(
+            CKEditor::className(),
+            [
+                'options' => ['rows' => 6],
+                'preset'  => 'basic',
+                //'preset'  => 'advanced',
+            ]
+        )
+    ?>
 
     <?= $form->field($model, 'image_url')->fileInput() ?>
 

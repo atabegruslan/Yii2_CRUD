@@ -5,6 +5,8 @@ use yii\grid\GridView;
 use app\models\Country;
 use app\models\User;
 use yii\helpers\ArrayHelper;
+use yii\jui\DatePicker;
+use yii\widgets\Pjax;
 
 /* @var $this yii\web\View */
 /* @var $searchModel app\models\ReviewSearch */
@@ -22,6 +24,8 @@ $this->params['breadcrumbs'][] = $this->title;
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
+    
+    <?php Pjax::begin(); ?>
 
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
@@ -57,8 +61,29 @@ $this->params['breadcrumbs'][] = $this->title;
             //'review',
             //'image_url:url',
 
+            [
+                'attribute' => 'trip_start',
+                'label'     => 'Trip Start',
+                'filter'    => DatePicker::widget([
+                        'model' => $searchModel,
+                        'attribute' => 'trip_start',
+                        'clientOptions' => ['defaultDate' => '2014-01-01 12:30:30']
+                    ]),
+            ],
+            [
+                'attribute' => 'trip_end',
+                'label'     => 'Trip End',
+                'filter'    => DatePicker::widget([
+                        'model' => $searchModel,
+                        'attribute' => 'trip_end',
+                        'clientOptions' => ['defaultDate' => '2014-01-01 12:30:30']
+                    ]),
+            ],
+
             ['class' => 'yii\grid\ActionColumn'],
         ],
     ]); ?>
+
+    <?php Pjax::end(); ?>
 
 </div>
