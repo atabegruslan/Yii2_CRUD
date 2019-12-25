@@ -34,6 +34,7 @@ https://www.yiiframework.com/extension/yiisoft/yii2-app-advanced/doc/guide/2.0/e
 
 - https://www.youtube.com/playlist?list=PLRFcevDKdig7Ja-Q7fmRGaX89MYa77jQ6
 - https://www.youtube.com/playlist?list=PLsjkcWMUNIT6GWvLYWmcLaS1tNWAzNTwT
+- https://www.youtube.com/playlist?list=PLpNYlUeSK_rn_3mWq_vPt_jKz6cp7a6sZ
 - https://www.yiiframework.com/doc/api/2.0
 	- https://www.yiiframework.com/doc/api/2.0/yii-grid-gridview
 - https://yii2-framework.readthedocs.io/en/stable/
@@ -49,6 +50,13 @@ https://www.yiiframework.com/extension/yiisoft/yii2-app-advanced/doc/guide/2.0/e
 
 {domain}/frontend/web/
 {domain}/backend/web/
+
+## Permissions
+
+- Role Based Access Control: https://www.youtube.com/watch?v=tMNJi9jaCrY
+	- https://www.yiiframework.com/doc/guide/2.0/en/security-authorization#rbac
+- A more manual way of achieving this: https://www.youtube.com/watch?v=eFOIUeU-Y74
+- More detail: https://www.youtube.com/watch?v=vLb8YATO-HU
 
 ---
 
