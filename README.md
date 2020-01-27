@@ -46,6 +46,10 @@ https://www.yiiframework.com/extension/yiisoft/yii2-app-advanced/doc/guide/2.0/e
 - https://www.yiiframework.com/doc/guide/2.0/en/security-authorization#configuring-rbac
 - https://www.yiiframework.com/doc/api/2.0/yii-rbac-dbmanager
 
+- https://www.youtube.com/watch?v=sRJ6GYiCwkI
+- https://www.youtube.com/playlist?list=PLMyGpiUTm106xkNQh9WeMsa-LXjanaLUm
+- https://www.youtube.com/playlist?list=PLYY5hYwm2ks1Evkiu8sPO7CsJV32LGeJt
+
 ## Access
 
 {domain}/frontend/web/
