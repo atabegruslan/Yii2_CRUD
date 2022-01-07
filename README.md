@@ -50,6 +50,13 @@ https://www.yiiframework.com/extension/yiisoft/yii2-app-advanced/doc/guide/2.0/e
 - https://www.youtube.com/playlist?list=PLMyGpiUTm106xkNQh9WeMsa-LXjanaLUm
 - https://www.youtube.com/playlist?list=PLYY5hYwm2ks1Evkiu8sPO7CsJV32LGeJt
 
+- Yii v1 vs v2: https://stackoverflow.com/a/46744576
+- Yii1: https://www.youtube.com/playlist?list=PLRd0zhQj3CBnYFqV6YxkwBKIBFsj2Zc36
+- Yii2: https://www.youtube.com/watch?v=whuIf33v2Ug
+- Making APIs: https://www.yiiframework.com/doc/guide/2.0/en/rest-quick-start
+- Active Record: https://www.yiiframework.com/doc/guide/2.0/en/db-active-record
+	- https://forum.yiiframework.com/t/yii2-model-relations/87356
+
 ## Access
 
 {domain}/frontend/web/
