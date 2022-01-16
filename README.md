@@ -13,7 +13,8 @@ https://forum.yiiframework.com/t/index-php-missing-in-yii2-advanced/81096/2
 
 ### Migrate (advanced)
 
-https://www.yiiframework.com/extension/yiisoft/yii2-app-advanced/doc/guide/2.0/en/start-installation#preparing-application
+- https://www.tutorialspoint.com/yii/yii_database_migration.htm
+- https://www.yiiframework.com/extension/yiisoft/yii2-app-advanced/doc/guide/2.0/en/start-installation#preparing-application
 1. Setup database.
 2. `php yii migrate`
 
@@ -54,6 +55,10 @@ https://www.yiiframework.com/extension/yiisoft/yii2-app-advanced/doc/guide/2.0/e
 - Yii1: https://www.youtube.com/playlist?list=PLRd0zhQj3CBnYFqV6YxkwBKIBFsj2Zc36
 - Yii2: https://www.youtube.com/watch?v=whuIf33v2Ug
 - Making APIs: https://www.yiiframework.com/doc/guide/2.0/en/rest-quick-start
+- Routing
+	- https://www.yiiframework.com/doc/guide/2.0/en/rest-routing
+	- https://www.tutorialspoint.com/yii/yii_url_routing.htm
+	- https://www.yiiframework.com/doc/guide/2.0/en/runtime-routing
 - Active Record: https://www.yiiframework.com/doc/guide/2.0/en/db-active-record
 	- https://forum.yiiframework.com/t/yii2-model-relations/87356
 
