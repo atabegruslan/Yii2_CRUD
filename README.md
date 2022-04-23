@@ -59,7 +59,7 @@ https://forum.yiiframework.com/t/index-php-missing-in-yii2-advanced/81096/2
 	- https://www.yiiframework.com/doc/guide/2.0/en/rest-routing
 	- https://www.tutorialspoint.com/yii/yii_url_routing.htm
 	- https://www.yiiframework.com/doc/guide/2.0/en/runtime-routing
-- Active Record: 
+- Active Record: (PS: Active Record is just a pattern https://en.wikipedia.org/wiki/Active_record_pattern)
 	- Yii1: https://www.yiiframework.com/doc/api/1.1/CActiveRecord
 	- Yii2: https://www.yiiframework.com/doc/guide/2.0/en/db-active-record
 		- https://forum.yiiframework.com/t/yii2-model-relations/87356
