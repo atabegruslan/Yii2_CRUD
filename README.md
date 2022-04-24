@@ -83,3 +83,9 @@ https://forum.yiiframework.com/t/index-php-missing-in-yii2-advanced/81096/2
 - RBAC
 - Modules (self-contained MVC apps with the overall Yii app. Eg: Gii is a module)
 - Email creds (Google)
+
+---
+
+## Yii v1
+
+https://github.com/Ruslan-Aliyev/Yii1_CRUD
