@@ -9,14 +9,28 @@ https://www.yiiframework.com/doc/guide/2.0/en/start-installation
 ### Initialize (advanced)
 
 https://forum.yiiframework.com/t/index-php-missing-in-yii2-advanced/81096/2
-`php init`
+
+```
+php init # In root folder
+composer install
+```
 
 ### Migrate (advanced)
 
 - https://www.tutorialspoint.com/yii/yii_database_migration.htm
 - https://www.yiiframework.com/extension/yiisoft/yii2-app-advanced/doc/guide/2.0/en/start-installation#preparing-application
+- https://www.yiiframework.com/doc/guide/2.0/en/db-migrations
 1. Setup database.
-2. `php yii migrate`
+2. Get DB connection configs right in `common/config/main-local.php`
+3. `php yii migrate # In root folder`
+
+To create migration scripts:
+
+`yii migrate/create create_xxx_table`, which will generate a migration file in `console/migrations/`
+
+Or easier still:
+
+EG: `php yii migrate/create create_country_continent_xref_table --fields="country_id:integer:notNull:foreignKey(country),continent_id :integer:notNull:foreignKey(continent)"`
 
 ### Scaffolding
 
