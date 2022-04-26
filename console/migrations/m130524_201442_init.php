@@ -27,11 +27,11 @@ class m130524_201442_init extends Migration
 
         $this->insert('user', [
             'username' => 'tester',
-            'auth_key' => 'bN3dZfDeMi9ofy3Q734zfWymj26BAsQR',
+            'auth_key' => Yii::$app->security->generateRandomString(),
             'password_hash' => Yii::$app->getSecurity()->generatePasswordHash('tester'),
             'password_reset_token' => null,
             'email' => 'tester@tester.com',
-            'status' => 9,
+            'status' => 10, // 10 means user activated, 9 means not yet activated, 0 means deleted
             'created_at' => date('Y-m-d H:i:s'),
             'updated_at' => date('Y-m-d H:i:s'),
         ]);
