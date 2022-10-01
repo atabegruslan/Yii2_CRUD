@@ -67,7 +67,7 @@ EG: `php yii migrate/create create_country_continent_xref_table --fields="countr
 
 - Yii v1 vs v2: https://stackoverflow.com/a/46744576
 - Yii1: https://www.youtube.com/playlist?list=PLRd0zhQj3CBnYFqV6YxkwBKIBFsj2Zc36
-- Yii2: https://www.youtube.com/watch?v=whuIf33v2Ug
+- Yii2: https://www.youtube.com/watch?v=whuIf33v2Ug (Very Good)
 - Making APIs: https://www.yiiframework.com/doc/guide/2.0/en/rest-quick-start
 - Routing
 	- https://www.yiiframework.com/doc/guide/2.0/en/rest-routing
